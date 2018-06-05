@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class HomeController {
 	//주석처리
+	//뭐가 처리 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
 		return "home";
